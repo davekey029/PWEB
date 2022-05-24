@@ -1,0 +1,21 @@
+body{
+    background: gainsboro;
+    text-align: center;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.fonte-branca{
+    background: white;
+    color: black;
+}
+.fonte-preta{
+    background: black;
+    color: white;
+}
+
+#donation{
+    
+    
+    text-align: end;
+}

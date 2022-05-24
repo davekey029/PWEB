@@ -1,0 +1,115 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    background-color: bisque;
+}
+
+.navbar{
+    display: flex; 
+    color: darkblue;
+    height: 110px;
+    background: bisque;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 3px solid #822b27;
+    
+}
+
+.navlogomark{
+    flex: 10%;
+    margin: 2%;
+    /*border: 1px solid red;*/
+    text-align: center;
+}
+
+.navlogomark img{
+    width: 90px;
+    margin-top: 5px;
+    border-radius: 100px;
+}
+
+.navmenu{
+    flex:88%;
+    /* border: 1px solid blue; */
+    text-align: start;
+    padding: 20px;
+}
+
+.navmenu a{
+    text-decoration: none;
+    color: #822b27;
+    font-family: Georgia, serif;
+    padding: 15px;
+}
+
+.header{
+    display: flex;
+    background-image: url(img/Webp.net-resizeimage.jpg);
+    height: 600px;
+    width: 1350px;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 3px solid #822b27;
+}
+
+.headline{
+    flex: 100%;
+    margin: 20%;
+    background: rgb(130, 43, 39, 0.8);
+    color: bisque;
+    font-family: Georgia, serif;
+    font-size: 40px;
+    text-align: center;
+    
+    /* border: 1px solid deeppink; */
+    border-radius: 10px;
+    padding: none;
+
+}
+
+section{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: inline-block;
+    width: 90%;
+    margin-top: 30px;
+    margin-left: 5%;
+    margin-right: 5%;
+    height: 600px;
+    /* border: 1px solid black; */
+    text-align: center;
+}
+
+section p{
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align:justify;
+}
+
+.marcas{
+    margin-top: 50px;
+    display: flex;
+    /* border: 1px solid black; */
+}
+
+.img1{
+    text-align: center;
+    flex: 33%;
+    /* border: 1px solid black; */
+}
+
+.img2{
+    flex: 34%;
+    /* border: 1px solid black */
+}
+
+.img3{
+    flex: 33%;
+    /* border: 1px solid black */
+}
+
+.marcas p{
+    text-align: center;
+}

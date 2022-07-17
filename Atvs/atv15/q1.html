@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="q1.css">
+    <title>Questão 1</title>
+    
+</head>
+<body>
+    <!-- Utilize o DOM para criar a interface de uma calculadora usando somente botões e campos HTML:
+    Os números devem ser inseridos em campos HTML, mas as operações devem ser escolhidas por meio de botões.
+    O resultado final deve aparecer em uma seção da página identificada como resultado. -->
+    <h1>Calculadora</h1>
+    <div>
+        <input type="text" id="campo1">
+    
+        <input type="text" id="campo2">
+    </div>
+    <br>
+    <div id="button+">
+        <button onclick="somar();">+</button>
+    </div>
+    <div id="button-">
+        <button onclick="subtrair();">-</button>
+    </div>
+    <div id="button*">
+        <button onclick="multiplicar();">*</button>
+    </div>
+    <div id="button/">
+        <button onclick="dividir();">/</button>
+    </div>
+    <h4>Resultado:</h4>
+    <div id="resultado">
+        <p></p>
+    </div>
+
+    <script src="q1.js"></script>
+</body>
+</html>

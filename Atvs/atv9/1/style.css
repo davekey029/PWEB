@@ -1,0 +1,41 @@
+*{
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    /* height: 100%; */
+}
+
+html{
+    height: 100%;
+}
+
+body{
+    background-color: antiquewhite;
+    height: 90%;
+}
+.header{
+    text-align: center;
+    font-size: 25px;
+    border: 1px solid red;
+    height: fit-content;
+    margin-bottom: 20px;
+}
+
+.main{
+    display: flex;
+    font-size: 18px;
+    /* border: 2px solid orange; */
+    height: 98%;
+}
+
+.bars{
+    flex: 15%;
+    border: 1px solid green;
+    margin: 10px;
+}
+
+.content{
+    flex: 70%;
+    border: 1px solid blue;
+    margin: 10px;
+}

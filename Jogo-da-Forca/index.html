@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Jogo da Forca</title>
+</head>
+<body>
+    
+    <div>
+       <h1>Forca</h1> 
+    </div>
+
+    
+    <div id="box-container">
+        <div id="box-image">
+        <img id="img" src="sprites/sprite6.png" alt="erro">
+        </div>
+        <div id="conteudo">
+            <div>
+                <h2>Palavra</h2>
+                <div id="palavra">
+                </div> 
+            </div>
+            
+            <div>
+                <h3>Usadas</h3>
+                <div id="letrasUsadas">
+                </div>
+            </div>      
+            
+            <div>
+                <h4>Tente!</h4>
+                <div id="inserirletra">
+                    <input type="text" id="letraTentada">
+                </div>  
+            </div>
+        </div>
+    </div>
+    <div id="button" style="margin-top: 25px;">
+        <button onclick="jogar();">Jogar</button>
+    </div>
+
+    <div id="button" style="margin-top: 25px;">
+        <button onclick="verificar();">Verificar</button>
+    </div>
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
